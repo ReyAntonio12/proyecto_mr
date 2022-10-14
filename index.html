@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <header>
+        <h1 id="title"> Microverse Application Survey</h1>
+        <p id="description"> Please take your time to answer the survey</p>
+    </header>
+    <form id="survey-form">
+        <div>
+            <label id="name-label">Name</label>
+            <input type=text, id="name", placeholder="Enter your name"/>
+        </div> 
+        
+        <div>
+            <label id="email-label">Email</label>
+            <input type=email, id="email", placeholder="Enter your email"/>
+        </div>
+
+        <div>
+            <label id="number-label">Age</label>
+            <input type=number, id="number", placeholder="Enter your number">
+        </div>
+
+    </form>
+    
 </body>
 </html>
